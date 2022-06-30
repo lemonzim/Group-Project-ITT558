@@ -47,7 +47,7 @@
             <br><br>
             Weight(kg): <input type="text" name="weight" id="weight">
             <br><br>
-            <button type="button" onclick="BMI(); closure();">Calculate</button>
+            <button type="button" onclick="BMI()">Calculate</button>
 	    <button type="reset" onclick="clean()">Clear</button>
             <br><br>
             BMI Category: <span id="cat"></span>
@@ -97,11 +97,9 @@
             document.getElementById("cat").innerHTML = "Very severly obese";
             document.getElementById("risk").innerHTML = "Very high risk";
         }
+	alert("Thank You for using our website");
         }
 		    
-	function closure() {
-          alert("Thank You for using our website");
-        }
         </script>
     </body>
 </html>
