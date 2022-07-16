@@ -3,19 +3,20 @@
     <head>
         <title>Body Mass Index Calculator</title>
 	<link rel="icon" type="image/png" href="Image/favicon-32x32.png" sizes="32x32"/>
-        <style>
-         *{box-sizing:border-box;}
+         <style>
+         *{box-sizing:border-box;}/* padding and border are included in the width and height */
          html,body {
             height: 100%;
-            background-image: url('Fitness.jpg');
-	    background-color: aqua;
-            background-size: cover; 
+            background-image: url('Image/Fitness.jpg');
+            background-color: aqua;
+            background-size: cover; /* background image as large as possible such that it will fill 
+                                        the entire background area leaving no gaps */
             }
          div{
          border-radius: 50px;
          background-color: white;
          width: 30%;
-         margin:auto;
+         margin:auto; /* Center the div */
          position:relative;
          top: 20%;
          }
@@ -32,9 +33,6 @@
   			border: none;
   			color: white;
   			padding: 10px 32px;
-  			text-align: center;
-  			text-decoration: none;
-  			display: inline-block;
   			font-size: 12px;
 		}
         </style>
